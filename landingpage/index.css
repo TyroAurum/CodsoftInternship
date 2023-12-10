@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.full-page{
+    
+}
+
+.titlebar{
+    width: 100vw;
+    height: 8vh;
+    
+}
+
+.titlebar>h3{
+    padding-top: 2.6vh;
+    padding-left: 5vw;
+    font-size: 25px;
+}
+
+.sect-1{
+    width: 100vw;
+    height: 92vh;
+    background-color: rgb(52, 111, 162);
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.sect-1>h3{
+    padding: 30vh;
+    padding-right: 25vh;
+    padding-top: 40vh;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.sect-1>img{
+    padding-top: 30vh;
+    width: 30vw;
+    height: 40vh;
+}
+
+.sect-1>h3>b{
+    color: yellow;
+}
+
+.signup{
+    width: 125px;
+    height: 30px;
+}
+
+.sect-2{
+    padding: 5vh 1vw;
+    height: 110vh;
+}
+.sect-2>h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.sect-2>div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;   
+    
+}
+
+.card{
+    width: 25vw;
+    height: 25vh;
+    margin: 20px;
+    text-align: center;
+    padding: 2vh 2vw ;
+    background-color: aquamarine;
+}
+
+
+.sect-3{
+    width: 100vw;
+    height: 50vh;
+    background-color: lightgray;
+    padding-top: 15vh;
+}
+
+.sect-3>div>h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+.cont-sec{
+    padding: 10vh 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+}
+.cont-sec>div>p{
+    margin-bottom: 15px;
+}
+
+.cont-sec>div>form>input{
+    width: 25vw;
+    height: 30px;
+    text-align: center;
+    font-size: large;
+}
+
+.cont-sec>div>form>button{
+    width: 10vw;
+    height: 30px;
+    background-color: lightcoral;
+    margin-top: 5vh;
+
+}
